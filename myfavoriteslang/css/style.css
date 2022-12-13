@@ -1,0 +1,132 @@
+/* 
+ESSA CLASSE NÃO SERVE DE NADA,
+APENAS PARA VOCÊS VEREM OS HEXAS
+DAS CORES DO LAYOUT 
+*/
+.cores{
+    color: #4A56F9;
+    color: #BE123C;
+    color: #1F2937;
+    color: #F1F5F9;
+    color: #64748B;
+    color: #3A5479
+}
+
+/*
+################### 
+################### 
+SEU CÓDIGO 
+DAQUI PARA BAIXO 
+##################
+##################
+*/
+
+header {
+    background-color: #F1F5F9;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 115px;
+    padding: 0px 0px 0px 200px;
+}
+
+header .user{
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    margin: 80px 0px 0px 0px;
+    display:flex;
+    justify-content: center;
+}
+
+main .m37019869-caixadetexto{
+    background-color: #64748B;
+    height: 30px;
+    width: 365px;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 3px 0px 0px;
+    border: 0;
+}
+
+.m37019869-caixadetexto::placeholder{
+    color: #3A5479;
+    font-size: 18px;
+}
+
+.m37019869-botão{
+    background-color: #4A56F9;
+    color: #F1F5F9;
+    height: 54px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+    border: 0;
+}
+
+.m37019869-formulário{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li{
+    background-color: #F1F5F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px 5px 0px;
+    height: 80px;
+}
+
+ul .m37019869-figure{
+    margin: 0;
+    padding: 0px 20px 0px 20px;
+}
+
+li:nth-child(n){
+    width: 98%;
+}
+
+ul h3{
+    font-size: 42px;
+}
+
+ul h4{
+    font-size: 20px;
+}
+
+.m37019869-red{
+    color: #BE123C;
+    padding: 0px 20px 0px 0px;
+}
+
+.m37019869-blue{
+    color: #4A56F9;
+    padding: 0px 20px 0px 0px;
+}
+
+ul{
+    margin: 20px 0px 0px 0px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+    padding: 80px 10px 40px 0px;
+    color: #3A5479;
+    align-items: center;
+    margin: auto;
+}
+
+.m37019869-black{
+    color: black;
+    width: 70%;
+}
+
+
